@@ -1,0 +1,82 @@
+body {
+  background: pink;
+}
+#character {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  margin: 20px auto;
+  background: #ffe0b2;
+  border-radius: 100px;
+  border: 2px solid #333;
+}
+.clothes {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+#shirt { top: 80px; height: 100px; }
+#pants { top: 180px; height: 120px; }
+.controls-card {
+  margin-left: 40px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(173,20,87,0.10);
+  padding: 24px 32px;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.controls {
+  text-align: center;
+  margin-top: 0;
+}
+.controls span {
+  font-weight: bold;
+  color: #ad1457;
+}
+.controls button {
+  margin: 0 5px;
+  background: #f8bbd0;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.controls button:hover {
+  background: #f06292;
+  color: #fff;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #ad1457; /* dark pink */
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.navbar li {
+  margin: 0 20px;
+}
+.navbar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 16px 0;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: #ffd1e6;
+}
